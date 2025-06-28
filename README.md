@@ -9,25 +9,24 @@ The app demonstrates features like user authentication via JWT, role-based acces
 ---
 
 ## Project Structure
-'''
-
+```
 ToDoApp/
 ├── backend/
-│ ├── alembic/ # Database migration scripts
-│ ├── routers/ # FastAPI route definitions
-│ ├── database.py # SQLAlchemy database connection setup
-│ ├── models.py # SQLAlchemy ORM models
-│ ├── main.py # FastAPI application entry point
-│ ├── .env.example # Example environment variables for backend
+│   ├── alembic/                  # Database migration scripts
+│   ├── routers/                  # FastAPI route definitions
+│   ├── database.py               # SQLAlchemy database connection setup
+│   ├── models.py                 # SQLAlchemy ORM models
+│   ├── main.py                   # FastAPI application entry point
+│   ├── .env.example              # Example environment variables for backend
 │
 ├── frontend/
-│ ├── src/ # React components, pages, and assets
-│ ├── package.json # Frontend dependencies
-│ ├── .env.example # Example environment variables for frontend
+│   ├── src/                      # React components, pages, and assets
+│   ├── package.json              # Frontend dependencies
+│   ├── .env.example              # Example environment variables for frontend
 │
 └── .gitignore
+```
 
-'''
 
 ---
 
