@@ -9,6 +9,8 @@ The app demonstrates features like user authentication via JWT, role-based acces
 ---
 
 ## Project Structure
+'''
+
 ToDoApp/
 ├── backend/
 │ ├── alembic/ # Database migration scripts
@@ -24,6 +26,9 @@ ToDoApp/
 │ ├── .env.example # Example environment variables for frontend
 │
 └── .gitignore
+
+'''
+
 ---
 
 ## Features
@@ -38,7 +43,7 @@ ToDoApp/
 ---
 
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - FastAPI (Python)
 - SQLAlchemy
