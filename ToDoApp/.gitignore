@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+fastapienv/
+.venv/
+venv/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Testing cache
+.pytest_cache/
+
+# Environment files
+.env
+
+# Alembic __pycache__
+ToDoApp/backend/alembic/versions/__pycache__/
+
+# Node.js
+ToDoApp/frontend/node_modules/
+ToDoApp/frontend/build/
+ToDoApp/frontend/.env
+
+# Media
+ToDoApp/frontend/media/profile/pics/
+
+# Misc
+.DS_Store
+*.log
